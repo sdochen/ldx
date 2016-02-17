@@ -1,0 +1,216 @@
+.mz-intro{
+    width: 100%;
+    height: 100%;
+}
+
+/**/
+
+
+.mz-thimg{
+    width: 100%;
+    height: 65%;
+    border: 0;
+    /*background: #452500;*/
+}
+
+.mz-thtitle{
+    width: 100%;
+    height: 35%;
+    background: #452500;
+    border: 0;
+}
+
+.mz-thtitle-txt{
+    width: 100%;
+    height: 100px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    font-family: 'ldx';
+}
+
+.mz-page2{
+    background: #E8E8E8;
+    width: 100%;
+    height: 100%;
+}
+
+.mz-page2-left{
+    height: 100%;
+    width: 48%;
+    background: #ffffff;
+    -webkit-box-shadow:0 0 10px #ccc;
+    -moz-box-shadow:0 0 10px #ccc;
+    -ms-box-shadow:0 0 10px #ccc;
+    -o-box-shadow:0 0 10px #ccc;
+    box-shadow:0 0 10px  #ccc;
+}
+
+.mz-page3{
+    width: 100%;
+    height: 100%;
+    background: url("../images/skin/r.jpg") no-repeat left;
+    background-size: auto 100%;
+}
+
+.mz-page2-icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 90px;
+    top: 290px;
+}
+
+.mz-page2-txt{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 90px;
+    top: 310px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(34,34,34);
+    font-family: 黑体, 'Emoji Symbols';
+}
+
+.mz-page3-txt1{
+    position: absolute;
+    left: 0;
+    font-family: 黑体, 'Emoji Symbols';
+    font-size: 27px;
+    top: 200px;
+    width: 500px;
+    height: 35px;
+    text-align: right;
+}
+
+.mz-page3-txt2{
+    position: absolute;
+    left: 0;
+    font-family: 黑体, 'Emoji Symbols';
+    font-size: 16px;
+    color: rgb(104, 105, 105);
+    top: 243px;
+    width: 500px;
+    height: 35px;
+    text-align: right;
+}
+
+.mz-page-num-left{
+    display: block; position: absolute; bottom: 33px; font-size: 12px; color: rgb(153, 153, 153); right: 35px;
+    text-align: right;
+}
+
+.mz-page-num-right{
+    display: block; position: absolute; bottom: 33px; font-size: 12px; color: rgb(153, 153, 153); left: 36px;
+    text-align: left;
+}
+
+.mz-page-num-left,.mz-page-num-right{
+
+    width: 88%;
+}
+
+.mz-page-header-date{
+    width: 80px; height: 21px;
+    position: absolute; left: 65px;
+    top: 50px; color: rgb(153, 153, 153);
+    font-family: 微软雅黑, 'Emoji Symbols';
+    font-size: 10px; line-height: 19px;
+    text-align: left;
+}
+
+.mz-page-header-title{
+    width: 339px; height: 21px;
+    position: absolute; left: 165px;
+    top: 50px; color: rgb(153, 153, 153);
+    font-family: 微软雅黑, 'Emoji Symbols';
+    font-size: 10px; line-height: 19px; text-align: right;
+}
+
+.mz-page-header-line{
+    width: 438px; height: 3px; position: absolute; left: 65px; top: 72px;
+}
+
+.mz-page-container{
+    /*border: 1px solid #000000;*/
+    top: 85px;
+    position: absolute;
+    width: 438px;
+    left: 65px;
+    height: 570px;
+}
+
+.mz-frag span{
+    font-family: 微软雅黑, 'Emoji Symbols';
+    font-size: 12px;
+}
+
+.mz-page-day{
+    position: absolute;
+    left: 0px;
+    top: 6px;
+
+    color: rgb(219, 65, 60); font-family: arial, 'Emoji Symbols'; font-size: 16px !important; line-height: 25px;
+    text-align: center;  width: 30px; height: 30px;
+}
+
+.mz-page-time{
+    color: rgb(219, 65, 60); font-family: arial, 'Emoji Symbols';
+    font-size: 16px !important;;
+    line-height: 25px; position: absolute; top:7px; width: 60px; height: 30px;
+}
+
+.mz-monthit{
+
+}
+
+.mz-month-year{
+    color: rgb(255, 255, 255); font-family: arial, 'Emoji Symbols';
+    font-size: 40px; line-height: 49px; position: absolute;
+    left: 347px; top: 360px; width: 100px; height: 50px;
+}
+
+.mz-m-year{
+    color: rgb(255, 255, 255); font-family: arial, 'Emoji Symbols';
+    font-size: 40px; line-height: 49px;
+    position: absolute; left: 367px; top: 360px;
+    width: 100px; height: 50px;
+}
+
+.mz-m-month{
+    color: rgb(255, 255, 255); font-family: arial, 'Emoji Symbols';
+    font-size: 40px; line-height: 49px;
+    position: absolute; left: 355px; top: 440px;
+    /*width: 100px; */
+    height: 50px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.mz-m-enmonth{
+    color: rgb(255, 255, 255); font-family: arial, 'Emoji Symbols';
+    font-size: 40px; line-height: 49px;
+    position: absolute; left: 355px; top: 550px;
+    width: 100px; height: 50px;
+    text-align: center;
+}
+
+.mz-page-year{
+    width: 100%;
+    height: 100%;
+}
+
+.mz-fa-txt > div{
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+}
+
+
+
+
+
